@@ -15,19 +15,3 @@ extension UILabel{
         textColor = .black
     }
 }
-
-
-extension UITextField{
-    
-    func strikeThrough(enable: Bool) {
-        
-        if enable {
-            let attrString = NSAttributedString(string: text ?? "", attributes: [NSAttributedString.Key.strikethroughStyle: NSUnderlineStyle.single.rawValue])
-            attributedText = attrString
-            textColor = .gray
-        } else {
-            attributedText = NSAttributedString(string: text ?? "")
-            textColor = .black
-        }
-    }
-}

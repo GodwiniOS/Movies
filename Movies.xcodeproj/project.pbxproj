@@ -17,10 +17,8 @@
 		5AB9524D25B60E010082AE4E /* ClientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9524925B60E000082AE4E /* ClientAPI.swift */; };
 		5AB9524E25B60E010082AE4E /* APIInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9524A25B60E010082AE4E /* APIInteractor.swift */; };
 		5AB9525C25B60E5E0082AE4E /* LabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525425B60E5E0082AE4E /* LabelEx.swift */; };
-		5AB9525D25B60E5E0082AE4E /* RealmEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525525B60E5E0082AE4E /* RealmEx.swift */; };
 		5AB9525E25B60E5E0082AE4E /* ViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525625B60E5E0082AE4E /* ViewControllerEx.swift */; };
 		5AB9525F25B60E5E0082AE4E /* ImageViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525725B60E5E0082AE4E /* ImageViewEx.swift */; };
-		5AB9526025B60E5F0082AE4E /* AlertActionEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525825B60E5E0082AE4E /* AlertActionEx.swift */; };
 		5AB9526125B60E5F0082AE4E /* TableEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525925B60E5E0082AE4E /* TableEx.swift */; };
 		5AB9526225B60E5F0082AE4E /* ViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525A25B60E5E0082AE4E /* ViewEx.swift */; };
 		5AB9526325B60E5F0082AE4E /* ButtonEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9525B25B60E5E0082AE4E /* ButtonEx.swift */; };
@@ -47,10 +45,8 @@
 		5AB9524925B60E000082AE4E /* ClientAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientAPI.swift; sourceTree = "<group>"; };
 		5AB9524A25B60E010082AE4E /* APIInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIInteractor.swift; sourceTree = "<group>"; };
 		5AB9525425B60E5E0082AE4E /* LabelEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEx.swift; sourceTree = "<group>"; };
-		5AB9525525B60E5E0082AE4E /* RealmEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmEx.swift; sourceTree = "<group>"; };
 		5AB9525625B60E5E0082AE4E /* ViewControllerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEx.swift; sourceTree = "<group>"; };
 		5AB9525725B60E5E0082AE4E /* ImageViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewEx.swift; sourceTree = "<group>"; };
-		5AB9525825B60E5E0082AE4E /* AlertActionEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertActionEx.swift; sourceTree = "<group>"; };
 		5AB9525925B60E5E0082AE4E /* TableEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableEx.swift; sourceTree = "<group>"; };
 		5AB9525A25B60E5E0082AE4E /* ViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEx.swift; sourceTree = "<group>"; };
 		5AB9525B25B60E5E0082AE4E /* ButtonEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonEx.swift; sourceTree = "<group>"; };
@@ -141,11 +137,9 @@
 		5AB9525325B60E530082AE4E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5AB9525825B60E5E0082AE4E /* AlertActionEx.swift */,
 				5AB9525B25B60E5E0082AE4E /* ButtonEx.swift */,
 				5AB9525725B60E5E0082AE4E /* ImageViewEx.swift */,
 				5AB9525425B60E5E0082AE4E /* LabelEx.swift */,
-				5AB9525525B60E5E0082AE4E /* RealmEx.swift */,
 				5AB9525925B60E5E0082AE4E /* TableEx.swift */,
 				5AB9525625B60E5E0082AE4E /* ViewControllerEx.swift */,
 				5AB9525A25B60E5E0082AE4E /* ViewEx.swift */,
@@ -282,7 +276,6 @@
 				5AB9526325B60E5F0082AE4E /* ButtonEx.swift in Sources */,
 				5AB9526725B60E7A0082AE4E /* MovieTableViewCell.swift in Sources */,
 				5AB9526225B60E5F0082AE4E /* ViewEx.swift in Sources */,
-				5AB9525D25B60E5E0082AE4E /* RealmEx.swift in Sources */,
 				5AB9527025B613BE0082AE4E /* MoviesListVC.swift in Sources */,
 				5AB9524E25B60E010082AE4E /* APIInteractor.swift in Sources */,
 				5AB9525C25B60E5E0082AE4E /* LabelEx.swift in Sources */,
@@ -291,7 +284,6 @@
 				5AB9526125B60E5F0082AE4E /* TableEx.swift in Sources */,
 				5AB9525E25B60E5E0082AE4E /* ViewControllerEx.swift in Sources */,
 				5AB9527825B614840082AE4E /* MovieModel.swift in Sources */,
-				5AB9526025B60E5F0082AE4E /* AlertActionEx.swift in Sources */,
 				5AB9527625B614840082AE4E /* Dates.swift in Sources */,
 				5AB9524C25B60E010082AE4E /* ErrorAPI.swift in Sources */,
 				5AB9527725B614840082AE4E /* ResponseBase.swift in Sources */,

@@ -22,8 +22,8 @@ class MoviesListVC: UIViewController {
 
     private func prepareView() {
         
-        title = "Upcoming Movie List"
-        // Prepare Ui properties Constraints and positions
+
+        self.navigationController?.navigationBar.topItem?.title = self.movieListVM.selectedVC.title
 
         // prepare ListTable
         view.addSubview(movielistTV)
@@ -58,7 +58,6 @@ class MoviesListVC: UIViewController {
         DispatchQueue.main.async {
 
         self.refreshControl.endRefreshing()
-            self.title = self.movieListVM.selectedVC.title
 
         guard animation else {
             // without animation

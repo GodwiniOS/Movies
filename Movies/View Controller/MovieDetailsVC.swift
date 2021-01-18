@@ -118,7 +118,7 @@ class MovieDetailsVC: UIViewController{
         backgroundView.addSubview(languageLabel)
         languageLabel.prepareLayout(.leading,constant:  width + 25)
         languageLabel.prepareLayout(.trailing,constant: -15)
-        languageLabel.prepareLayout(.top,constant: 170)
+        languageLabel.prepareLayout(.top,constant: 200)
         languageLabel.prepareTextField(size: .title)
         languageLabel.numberOfLines = 0
         

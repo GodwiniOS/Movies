@@ -15,15 +15,18 @@ extension UIButton {
     func setTitle(_ title: AppTitle) {
         setTitle(title.rawValue, for: .normal)
     }
-    
-    func prepareFavButton() {
-        titleLabel?.font = UIFont.systemFont(ofSize: 30)
-    }
+
 }
 
 
-//extension UIColor {
-//    var theme {
-//        return
-//    }
-//}
+extension String {
+    func lang() -> String {
+        if self == "hi" {
+            return "Hindi"
+        } else {
+            return "English"
+        }
+        
+    }
+}
+

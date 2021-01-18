@@ -21,8 +21,8 @@ enum ViewControllerType: String {
     
     var title: String {
         switch self {
-        case .upcoming: return "UpComing Movies"
-        case .top_rated: return "Top rated Movies"
+        case .upcoming: return "Upcoming Movies"
+        case .top_rated: return "Top Rated Movies"
         }
     }
 }
